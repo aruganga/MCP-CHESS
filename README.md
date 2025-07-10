@@ -20,14 +20,13 @@ This is a fun MCP (Model Context Protocol) project that provides a simple server
 Install dependencies (MCP Server):
 
 ```bash
-"Chess": {
-      "command": "uv",
-      "args": [
-        "--directory",
-        "/Users/aruganga/Learning/mcp-ai-agent/mcp-build-chess-server",
-        "run",
-        "chess"
-      ]
+    "Chess": {
+      "command": "uvx",
+        "args": [
+            "--from",
+            "git+https://github.com/aruganga/MCP-CHESS.git",
+            "chess"
+        ]
     }
 ```
 
